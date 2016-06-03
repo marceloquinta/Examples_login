@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginExample</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="error_connection">Sem conexão</string>
+    <string name="error_request">Erro na requisição</string>
+    <string name="error_invalid_password">Senha inválida</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="label_error_invalid_response">Resposta inválida do servidor</string>
+</resources>

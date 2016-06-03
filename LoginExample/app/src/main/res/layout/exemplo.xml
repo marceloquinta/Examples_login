@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="385dp"
+    android:layout_height="wrap_content"
+    android:background="#DDccff">
+
+
+    <TextView
+        android:id="@+id/label_sexta"
+        android:text="Sexta-feira"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/label_sabado"
+        android:text="Sábado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/label_sexta"/>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+        android:layout_below="@id/label_sabado">
+
+
+        <TextView
+            android:text="Segunda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:padding="20dp"/>
+
+        <TextView
+            android:text="Terça"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
